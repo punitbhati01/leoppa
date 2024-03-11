@@ -1,0 +1,160 @@
+.productdisplay {
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin: 75px auto;
+    width: 90%;
+}
+
+.productdisplay-left {
+    display: flex !important;
+    gap: 17px;
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img {
+    height: 113px;
+    border-radius: 10px;
+}
+
+.productdisplay-main-img {
+    width: 386px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.productdisplay-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.productdisplay-right h1 {
+    margin: 0;
+    color: #3d3d3d;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.productdisplay-right .star-ratings {
+    display: flex;
+}
+
+.productdisplay-right p.pre {
+    color: #ff7d19;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.price {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.price s {
+    font-weight: 700;
+    color: #b6bcc8;
+    font-size: 20px;
+}
+
+.price .main-tag {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.price .main-tag p:first-of-type {
+    color: #1d2025;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.price .main-tag p:last-of-type {
+    color: #ff7d19;
+    background-color: #ffede0;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.productdisplay-right-description {
+    color: #68707d;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.productdisplay-right-size h1 {
+    /* margin-top: 55px; */
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productdisplay-right-sizes {
+    display: flex;
+    margin: 10px 0px;
+    gap: 20px;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttons .amount {
+    align-items: center;
+    background-color: #f0f2f9;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 180px;
+    height: 55px;
+}
+
+.buttons .amount .qty {
+    display: flex;
+    color: #ff7d19;
+}
+
+.buttons .amount p {
+    font-weight: 700;
+    margin: 0;
+}
+.buttons .add-to-cart {
+    align-items: center;
+    background-color: #ff7d19;
+    border-radius: 5px;
+    box-shadow: 0 30px 20px -8px #ffede0;
+    color: #fff;
+    display: flex;
+    flex: 1 1;
+    font-weight: 700;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px 40px;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    background-color: unset;
+}

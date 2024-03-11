@@ -1,0 +1,72 @@
+.offers {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding: 0px 140px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    margin-top: 55px;
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-left h1 {
+    width: 400px;
+    color: #171717;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.offers-left p {
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.offers-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-right img {
+    margin-top: 60px;
+    width: 450px;
+    filter: drop-shadow(10px 10px 10px #fde1ff);
+}
+
+@media (max-width: 600px) {
+    .offers {
+        padding-top: 25px;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers-left h1 {
+        width: auto;
+    }
+
+    .offers-left p {
+        width: 180px;
+    }
+
+    .offers-right {
+        margin-top: 20px;
+        width: 315px;
+    }
+
+    .offers-right img {
+        margin-top: 10px;
+        width: 350px;
+    }
+}
