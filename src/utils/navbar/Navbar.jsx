@@ -23,7 +23,7 @@ const pages = [
   { id: 3, name: 'About', path: constant.APP_ROUTES.ABOUT },
   { id: 4, name: 'Contact', path: constant.APP_ROUTES.CONTACTUS },
 ];
-const settings = ['Profile', 'Logout'];
+const settings = ['Profile', 'Wishlist', 'Logout'];
 
 function Navbar() {
   const [mobileViewOpen, setMobileViewOpen] = React.useState(false);
