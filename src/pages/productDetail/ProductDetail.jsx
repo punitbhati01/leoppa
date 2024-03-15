@@ -36,7 +36,7 @@ export default function ProductDetail() {
                         A lightweight, usually knitted, pullover shirt, close-fitting and v a round neckline and short sleeves, worn as an undershirt or outs garment.
                     </div>
                     <div className="price">
-                        <s>&#8377;65</s>
+                        <s>&#8377;650</s>
                         <div className="main-tag">
                             <p>&#8377;325</p>
                             <p>50% off</p>
