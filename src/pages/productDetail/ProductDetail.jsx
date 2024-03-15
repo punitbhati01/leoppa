@@ -9,6 +9,7 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 import { Box } from '@mui/material';
 import Product from '../../components/Product/Product';
+import Price from '../../components/Price/Price';
 
 export default function ProductDetail() {
     return (
@@ -35,20 +36,8 @@ export default function ProductDetail() {
                     <div className="productdisplay-right-description">
                         A lightweight, usually knitted, pullover shirt, close-fitting and v a round neckline and short sleeves, worn as an undershirt or outs garment.
                     </div>
-                    <div className="price">
-                        <s>&#8377;650</s>
-                        <div className="main-tag">
-                            <p>&#8377;325</p>
-                            <p>50% off</p>
-                        </div>
-                    </div>
+                    <Price />
                     <div className="productdisplay-right-size">
-                        {/* <h1>Select Size</h1>
-                    <div className="productdisplay-right-sizes">
-                        <div>1 Kg</div>
-                        <div>2 Kg</div>
-                        <div>5 Kg</div>
-                    </div> */}
                         <div className="buttons">
                             <div className="amount">
                                 <IconButton className="qty" aria-label="minus" size='small'>
@@ -66,10 +55,7 @@ export default function ProductDetail() {
                                 className="add-to-cart"
                             >Add to cart
                             </Button>
-                            {/* <button className="add-to-cart">ADD TO CART</button> */}
                         </div>
-                        {/* <p className="productdisplay-right-category"><span>Category : </span>Chocolate, Oats and Jaggery, Mango</p>
-                    <p className="productdisplay-right-category"><span>Tags : </span>Popular, Latest</p> */}
                     </div>
                 </div>
             </div>

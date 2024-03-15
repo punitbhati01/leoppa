@@ -19,13 +19,13 @@
 }
 
 .productdisplay-img-list img {
-    height: 113px;
+    height: 100px;
     border-radius: 10px;
 }
 
 .productdisplay-main-img {
     width: 386px;
-    height: 500px;
+    height: 450px;
     border-radius: 10px;
 }
 
@@ -48,14 +48,14 @@
     display: flex;
 }
 
-.productdisplay-right p.pre {
+/* .productdisplay-right p.pre {
     color: #ff7d19;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 2px;
     margin: 0;
     text-transform: uppercase;
-}
+} */
 
 .price {
     align-items: flex-start;
@@ -168,7 +168,7 @@ button {
     .productdisplay {
         padding: 10px;
         gap: 40px;
-        margin: 25px auto;
+        margin: auto;
         flex-direction: column;
     }
 

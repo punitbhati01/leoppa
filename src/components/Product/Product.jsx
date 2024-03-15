@@ -10,18 +10,19 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import Price from '../Price/Price';
 
 const Product = () => {
     return (
         <Box>
-            <Card className='product-card' sx={{ maxWidth: 270, borderRadius: 3, mb:3 }} raised={true}>
+            <Card className='product-card' sx={{ maxWidth: 270, borderRadius: 3, mb: 3 }} raised={true}>
                 <CardMedia
                     sx={{ height: 220 }}
                     image="../assets/images/product_1.jpeg"
                     title="peanut butter"
                 />
                 <CardContent>
-                    <Box style={{display: 'flex', justifyContent: 'space-between'}}>
+                    <Box style={{ display: 'flex', justifyContent: 'space-between' }}>
                         <Typography gutterBottom variant="h5" component="div">
                             Oats and Jaggery
                         </Typography>
@@ -34,7 +35,7 @@ const Product = () => {
                         species, ranging across all continents except Antarctica
                     </Typography>
                     <Typography gutterBottom variant="h5" component="div">
-                        455
+                        <Price />
                     </Typography>
                 </CardContent>
                 <CardActions sx={{ height: 80 }}>
