@@ -136,6 +136,7 @@
     font-weight: 700;
     margin: 0;
 }
+
 .buttons .add-to-cart {
     align-items: center;
     background-color: #ff7d19;
@@ -163,42 +164,57 @@ button {
     .container {
         margin-top: 50px;
     }
+
     .productdisplay {
         padding: 10px;
         gap: 40px;
         margin: 25px auto;
         flex-direction: column;
     }
+
     .productdisplay-left {
         flex-direction: column-reverse;
         gap: 0;
     }
+
     .productdisplay-right {
         padding: 10px;
         width: 375px;
         gap: 0;
     }
+
     .productdisplay-right h1 {
         margin-bottom: 20px;
         font-size: 45px;
     }
+
     .productdisplay-right .star-ratings {
         margin-bottom: 10px;
     }
+
     .productdisplay-right-description {
         margin-bottom: 20px;
     }
+
     .price {
         margin-bottom: 20px;
     }
+
+    .productdisplay-main-img {
+        padding: 10px;
+        border-radius: 25px;
+    }
+
     .productdisplay-img-list {
         padding: 10px;
         gap: 10px;
         flex-direction: row;
     }
+
     .productdisplay-img-list img {
         height: 95px;
     }
+
     .buttons .amount {
         width: 135px;
     }
