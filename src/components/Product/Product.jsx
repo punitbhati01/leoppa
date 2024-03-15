@@ -47,19 +47,19 @@ const Product = () => {
                             <Price />
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{ height: 80 }}>
-                        <Button
-                            component="label"
-                            variant="contained"
-                            fullWidth={true}
-                            size="large"
-                            startIcon={<AddShoppingCartIcon />}
-                            style={{ borderRadius: 10 }}
-                        >Add to cart
-
-                        </Button>
-                    </CardActions>
                 </CardActionArea>
+                <CardActions sx={{ height: 80 }}>
+                    <Button
+                        component="label"
+                        variant="contained"
+                        fullWidth={true}
+                        size="large"
+                        startIcon={<AddShoppingCartIcon />}
+                        style={{ borderRadius: 10, backgroundColor: 'rgb(233 109 13)', fontWeight: 700 }}
+                    >Add to cart
+
+                    </Button>
+                </CardActions>
             </Card>
         </Box>
     )
