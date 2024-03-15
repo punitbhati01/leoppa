@@ -34,8 +34,8 @@
         margin-top: 30px;
     }
     .new-collections h1 {
-        margin-left: 50px;
-        font-size: 40px;
+        /* margin-left: 50px; */
+        font-size: 35px;
         line-height: 1.2;
     }
 }

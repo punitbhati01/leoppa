@@ -29,8 +29,8 @@ export default function ProductDetail() {
                     <p className="pre">peanut butter</p>
                     <h1>Oat and Jaggery</h1>
                     <div className="star-ratings">
-                        <Rating name="read-only" value={2} sx={{ mr: 1 }} readOnly />
-                        <Typography component="legend">(125)</Typography>
+                        <Rating name="read-only" value={4} sx={{ mr: 1 }} readOnly />
+                        <Typography component="legend">(125 Reviews)</Typography>
                     </div>
                     <div className="productdisplay-right-description">
                         A lightweight, usually knitted, pullover shirt, close-fitting and v a round neckline and short sleeves, worn as an undershirt or outs garment.
